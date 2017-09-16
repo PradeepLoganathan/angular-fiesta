@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
+import {ProductModule} from './product/product.module';
+import {CustomerModule} from './customer/customer.module';
+
+
 import { AppComponent } from './app.component';
 import { MarkscardComponent } from './markscard/markscard.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
